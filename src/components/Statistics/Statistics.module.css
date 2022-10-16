@@ -1,0 +1,23 @@
+.statistics {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  border: 8px solid black;
+  border-radius: 12px;
+  padding: 20px;
+  background-color: rgb(238, 211, 241);
+  margin-bottom: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.statList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 20px;
+}
+.label {
+  font-weight: 500;
+}

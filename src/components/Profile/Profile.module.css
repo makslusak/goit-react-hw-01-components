@@ -1,0 +1,35 @@
+.profile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  border: 8px solid black;
+  border-radius: 12px;
+  padding: 20px;
+  background-color: rgb(241, 211, 227);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.description {
+  padding: 20px;
+  font-size: 20px;
+}
+.name {
+  font-size: 35px;
+  font-weight: 700;
+}
+.avatar {
+  width: 100px;
+}
+.stats {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 20px;
+}
+.label {
+  font-weight: 500;
+}

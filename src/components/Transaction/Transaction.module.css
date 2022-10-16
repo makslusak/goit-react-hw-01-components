@@ -1,0 +1,22 @@
+.tableRow {
+  width: 600px;
+  padding: 7px;
+  display: flex;
+
+  border-bottom: 2px solid rgba(0, 0, 0, 0.09);
+}
+.tableFirstColumn {
+  width: 200px;
+  display: flex;
+  justify-content: flex-start;
+}
+.tableCenterColumn {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+.tableLastColumn {
+  width: 200px;
+  display: flex;
+  justify-content: flex-end;
+}

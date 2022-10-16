@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { FriendListItem } from './FriendListItem';
+import { FriendListItem } from '../FriendListItem/FriendListItem';
+import css from './FriendList.module.css';
 
 export const FriendList = ({ friendsArr }) => {
   return (
-    <ul class="friend-list">
+    <ul className={css.friendList}>
       {friendsArr.map(friend => (
         <FriendListItem key={friend.id} friendObj={friend} />
       ))}
@@ -12,5 +13,5 @@ export const FriendList = ({ friendsArr }) => {
   );
 };
 FriendList.propTypes = {
-  friendsArr: PropTypes.array,
+  friendsArr: PropTypes.array.isRequired,
 };
