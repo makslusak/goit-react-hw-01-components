@@ -14,7 +14,10 @@ export const FriendListItem = ({ friendObj }) => {
 };
 
 FriendListItem.propTypes = {
-  isOnline: PropTypes.bool.isRequired,
-  avatar: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired,
+  friendObj: PropTypes.exact({
+    id: PropTypes.number.isRequired,
+    isOnline: PropTypes.bool.isRequired,
+    avatar: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+  }),
 };
